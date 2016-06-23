@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 setup(name='countop',
-      version='0.1',
+      version='0.11',
       description='Count basic operations in algorithm implementations.',
       long_description=readme(),
       classifiers=[
