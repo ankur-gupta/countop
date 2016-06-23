@@ -1,7 +1,10 @@
 countop
 --------
 
-To use (with caution), simply do::
+Count the number of operations in your algorithm implementation.
 
-    >>> import countop as cop
-    >>> print cop.joke()
+    from countop import Integer
+    print Integer.counts()
+    a = Integer(1)
+    b = a + 1
+    print Integer.counts()

@@ -19,4 +19,6 @@ setup(name='countop',
       author_email='ankur@perfectlyrandom.org',
       license='MIT',
       packages=['countop'],
+      test_suite='nose.collector',
+      tests_require=['nose'],
       zip_safe=False)
