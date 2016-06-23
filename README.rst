@@ -2,6 +2,23 @@ countop
 --------
 
 Count the number of operations in your algorithm implementation.
+For example, you can use to determine exactly how many comparisons are
+required by a sorting algorithm.
+
+============
+Installation
+============
+
+This package exists on `PyPI <https://pypi.python.org/pypi/countop>`_.
+You can install it using `pip`::
+
+    pip install countop
+
+============
+Demo
+============
+
+Here is a quick demo of how this package works::
 
     >>> from countop import Integer
     >>> print Integer.reset_counts()
