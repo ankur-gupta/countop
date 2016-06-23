@@ -3,7 +3,10 @@ countop
 
 Count the number of operations in your algorithm implementation.
 For example, you can use to determine exactly how many comparisons are
-required by a sorting algorithm.
+required by a sorting algorithm. See
+`Jupyter notebook example <https://github.com/ankur-gupta/countop/blob/master/countop/examples/selection_sort.ipynb>`_
+that verifies the complexity of selection sort.
+
 
 ============
 Installation
